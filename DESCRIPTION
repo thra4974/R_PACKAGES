@@ -1,0 +1,11 @@
+Package: STATSOU.package
+Type: Package
+Title: Satistics Package MATH 4573
+Version: 0.1.0
+Author: Tristan Thrasher
+Maintainer: Tristan Thrasher <tristan.thrasher-1@ou.edu>
+Description: Contains functions for use in MATH 4573 Applications of Statistical Methods. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
