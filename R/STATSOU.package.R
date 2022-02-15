@@ -1,6 +1,7 @@
 #' STATS OU Package
 #'
 #' Contains function for computing the total sum of squares
+#' Contains function for producing a Pareto Diagram
 #'
 #' @docType package
 #'

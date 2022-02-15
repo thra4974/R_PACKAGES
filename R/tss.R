@@ -6,6 +6,7 @@
 #'
 #' @param column column name
 #'
+#'
 #' @return Variable
 #'
 #' @examples

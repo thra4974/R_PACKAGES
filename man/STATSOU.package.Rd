@@ -6,6 +6,7 @@
 \title{STATS OU Package}
 \description{
 Contains function for computing the total sum of squares
+Contains function for producing a Pareto Diagram
 }
 \author{
 Tristan Thrasher \email{tristan.thrasher-1@ou.edu}
