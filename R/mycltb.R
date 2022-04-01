@@ -1,6 +1,6 @@
-#' Produce a normal curve with shaded region
+#' produce plots to test central limit theory
 #'
-#' myncurve takes in a mean,  std dev. and an a limit
+#' mycltb takes in an iteration,  size and probability
 #'
 #' @name mycltb
 #'

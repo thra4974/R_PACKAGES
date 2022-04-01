@@ -2,7 +2,7 @@
 % Please edit documentation in R/mycltb.R
 \name{mycltb}
 \alias{mycltb}
-\title{Produce a normal curve with shaded region}
+\title{produce plots to test central limit theory}
 \usage{
 mycltb(n = 5, iter = 10000, p = 0.5, ...)
 }
@@ -16,7 +16,7 @@ mycltb(n = 5, iter = 10000, p = 0.5, ...)
 \item{...}{arguments}
 }
 \description{
-myncurve takes in a mean,  std dev. and an a limit
+mycltb takes in an iteration,  size and probability
 }
 \examples{
 mycltb(n=5,iter=10000,p=0.5)
