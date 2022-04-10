@@ -4,7 +4,12 @@
 \alias{maxlikg2}
 \title{Produce maximum likelihood estimates for joint density}
 \usage{
-maxlikg2(theta1, theta2, lfun = "logbinpois", ...)
+maxlikg2(
+  theta1 = seq(0, 1, length = 1000),
+  theta2 = seq(0, 10, length = 1000),
+  lfun = "logbinpois",
+  ...
+)
 }
 \arguments{
 \item{theta1}{parameter for binomial}
@@ -19,7 +24,7 @@ maxlikg2(theta1, theta2, lfun = "logbinpois", ...)
 maxlikg2 takes in a joint density function (binomialxpoisson) and returns max likelihood est.
 }
 \examples{
-logbinpois=function(theta1,theta2) log(dbinom(4,size=20,prob=theta1)) + log(dpois(4,lambda=theta2))
-maxlikg2(theta1=seq(0,1,length=1000),theta2=seq(0,10,length=1000),nlevels=20)
+logbinpois=function(theta1,theta2) log(dbinom(3,size=10,prob=theta1)) + log(dpois(4,lambda=theta2))
+maxlikg2(theta1=seq(0,1,length=1000),theta2=seq(0,10,length=1000),nlevels=10)
 
 }

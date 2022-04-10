@@ -13,14 +13,13 @@
 #' @param ... arguments
 #'
 #' @examples
-#' logbinpois=function(theta1,theta2) log(dbinom(4,size=20,prob=theta1)) + log(dpois(4,lambda=theta2))
-#' maxlikg2(theta1=seq(0,1,length=1000),theta2=seq(0,10,length=1000),nlevels=20)
+#' logbinpois=function(theta1,theta2) log(dbinom(3,size=10,prob=theta1)) + log(dpois(4,lambda=theta2))
+#' maxlikg2(theta1=seq(0,1,length=1000),theta2=seq(0,10,length=1000),nlevels=10)
 #'
 #' @importFrom graphics curve hist abline contour
 #'
 #' @export
-
-maxlikg2=function(theta1,theta2,lfun="logbinpois",...){
+maxlikg2=function(theta1=seq(0,1,length=1000),theta2=seq(0,10,length=1000),lfun="logbinpois",...){
   n1=length(theta1)
   n2=length(theta2)
   z=outer(theta1,theta2,lfun)
